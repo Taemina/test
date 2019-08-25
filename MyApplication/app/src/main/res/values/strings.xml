@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Мои Кошельки</string>
+    <string name="remove">Удалить</string>
+    <string name="settings">Настройки</string>
+    <string name="transaction">Операции</string>
+    <string name="automatic_loading">Автозагрузка курса валют</string>
+    <string name="dollar_rate">Курс доллара:</string>
+    <string name="euro_rate">Курс евро:</string>
+    <string name="value_rate">Введите значение курса</string>
+    <string name="up_balance">Пополнить баланс</string>
+    <string name="withdraw_money">Снять деньги</string>
+    <string name="transfer_money">Перевести деньги</string>
+    <string name="error">Ошибка</string>
+    <string name="have_money">В кошельке остались деньги</string>
+    <string name="no_money">В кошельке не хватает денег</string>
+    <string name="OK">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="create">Создать</string>
+    <string name="create_a_wallet">Создать кошелек</string>
+    <string name="name_wallet">Имя кошелька:</string>
+    <string name="enter_name_wallet">Введите имя кошелька</string>
+    <string name="comment">Комментарий:</string>
+    <string name="enter_comment">Введите комментарий</string>
+    <string name="enter_sum">Введите количество денег</string>
+    <string name="choose_a_wallet">Выберите кошелек</string>
+    <string name="chosen_currency">Выберите валюту</string>
+    <string name="with_wallet">С кошелька:</string>
+    <string name="in_wallet">На кошелек:</string>
+    <string name="sum">Количество денег:</string>
+    <string name="info">инфо</string>
+
+
+    <string-array name="rate">
+        <item>RUS</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>
+</resources>

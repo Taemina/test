@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+       <Button
+           android:id="@+id/bt_add"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/up_balance"/>
+        <Button
+            android:id="@+id/bt_withdraw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/withdraw_money"/>
+        <Button
+            android:id="@+id/bt_transfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transfer_money"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
